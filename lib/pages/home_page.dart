@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
               height: 100,
               width: 100,
               child: Center(
-                child: Text('Container2'),
+                child: Text('Container 2'),
               ),
             )
           ],
