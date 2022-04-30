@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:todolist/pages/navigator/navigator_one_page.dart';
-import 'package:todolist/pages/navigator/navigator_two_page.dart';
+import 'package:todolist/views/navigator_one_page.dart';
+import 'package:todolist/views/navigator_two_page.dart';
 
 void main() {
   runApp(MyApp());
