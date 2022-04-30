@@ -10,8 +10,9 @@ class NavigatorOne extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
             onPressed: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => const NavigatorTwo(args: 'teste')));
+              Navigator.of(context)
+                  .pushNamed('/NavigatorTwo', arguments: 'teste')
+                  .then((value) => print(value));
             },
             child: Text('Ir para a segunda página')),
       ),
